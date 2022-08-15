@@ -1,0 +1,84 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp079SK_mVlsSyDjTpZv9PbH9MzHMVh00QYQ&usqp=CAU");
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    border: 2px solid #949292;
+}
+
+.left {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    background: #424242;
+    color: white;
+    font-family: SansSerif, sans-serif;
+    border: 2px solid #949292;
+    padding: 5px;
+}
+
+.left h2 {
+    color: #c4aa75;
+    font-family: Bradley Hand, cursive;
+}
+
+.social a {
+    color: #dea62d;
+}
+
+.right {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    background: #dcd7d7;
+    color: #595858;
+    font-family: "Tibetan Machine Uni", sans-serif;
+    border: 2px solid #949292;
+    padding: 5px;
+}
+
+.right h1 {
+    color: #886b2f;
+}
+
+.center li {
+    list-style-type: none;
+    font-size: 1.5rem;
+    /*display: inline;*/
+}
+
+.ea-img {
+    position: absolute;
+    width: 60px;
+    margin-left: 220px;
+}
+
+table, th, td {
+    font-family: SansSerif, fantasy;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp079SK_mVlsSyDjTpZv9PbH9MzHMVh00QYQ&usqp=CAU");
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    border: 2px solid #949292;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
